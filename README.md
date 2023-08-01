@@ -3,7 +3,7 @@
 This is the origin Pytorch implementation of Informer in the following paper: Stop-loss adjusted labels for machine learning-based trading of risky assets
 
 
-**News**(July 31, 202023):  Accepted to [Finance Research Letters](https://www.sciencedirect.com/journal/finance-research-letters) 2023.
+**News**(July 31):  Accepted to [Finance Research Letters, 2023](https://www.sciencedirect.com/journal/finance-research-letters).
  
 
 ## Get Started
