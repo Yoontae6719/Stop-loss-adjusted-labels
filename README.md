@@ -58,13 +58,6 @@ We will keep adding Predicting movements of asset prices models to expand this r
 - [x] Random Forest
 - [x] Extra tree
 
-## Risk measrue
-
-- [x] MDD
-- [x] VAR, CVAR
-- [x] Adjusted Sharpe Ratio
-- [x] Sortino Ratio
-
 
 ## Citation
 
