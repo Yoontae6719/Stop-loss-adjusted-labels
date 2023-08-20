@@ -6,6 +6,7 @@ This is the origin Pytorch implementation of Informer in the following paper: St
 **News**(July 31):  Accepted to [Finance Research Letters, 2023](https://www.sciencedirect.com/journal/finance-research-letters).
  
 
+
 ## Get Started
 
 1. Install Python 3.6, PyTorch 1.9.0.
@@ -23,6 +24,28 @@ To easily reproduce the results using Docker, conda and Make,  you can follow th
 ```
 for file in `ls scripts`; do make run_module module="bash runfile/runfile"; done
 ```
+
+## Stop-loss adjusted labels (Python Code Description)
+
+```python
+def ST_labels(data, delta):
+    """
+    Calculate the stop-loss adjusted label.
+
+    Parameters:
+    - data: DataFrame containing historical asset prices.
+    - delta: Maximum tolerance level for stop-loss trading.
+
+    Returns:
+    - Index of rows where the label is 1.
+    """
+
+    return data[
+        (data["Close"] / data["Close"].shift(1) > 1) & 
+        ((data["Low"] / data["Close"].shift(1) - 1) * 100 >= -delta)
+    ].index
+```
+
 
 ## Baselines
 
@@ -48,7 +71,7 @@ We will keep adding Predicting movements of asset prices models to expand this r
 If you find this repo useful, please cite our paper. 
 
 ```
-Will be update
+Hwang, Y., Park, J., Lee, Y., & Lim, D. Y. (2023). Stop-loss adjusted labels for machine learning-based trading of risky assets. Finance Research Letters, 104285.
 ```
 
 ## Contact
