@@ -71,5 +71,6 @@ Hwang, Y., Park, J., Lee, Y., & Lim, D. Y. (2023). Stop-loss adjusted labels for
 
 If you have any questions or want to use the code, please contact `yoontae@unist.ac.kr`
 
-SPDX-FileCopyrightText: © {2023} {yoontae hwang} <{yoontae@unist.ac.kr}>
-SPDX-License-Identifier: {BSD-3-Clause}
+SPDX-FileCopyrightText: © 2023 yoontae hwang <yoontae@unist.ac.kr>
+
+SPDX-License-Identifier: BSD-3-Clause
