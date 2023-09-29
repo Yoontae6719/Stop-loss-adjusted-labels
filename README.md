@@ -1,6 +1,6 @@
 # Stop-loss adjusted labels for machine learning-based trading of risky assets
 
-This is the origin Pytorch implementation of Informer in the following paper: Stop-loss adjusted labels for machine learning-based trading of risky assets
+This is the origin Pytorch implementation of stop-loss adjusted label in the following paper: Stop-loss adjusted labels for machine learning-based trading of risky assets
 
 
 **News**(July 31):  Accepted to [Finance Research Letters, 2023](https://www.sciencedirect.com/journal/finance-research-letters).
